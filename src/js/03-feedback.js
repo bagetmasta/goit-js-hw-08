@@ -11,8 +11,8 @@ form.addEventListener('input', throttledOnSaveInLocalStorage);
 form.addEventListener('submit', onSubmitClick);
 
 const object = {
-  email: '',
-  message: '',
+  email: null,
+  message: null,
 };
 
 function saveInLocalStorage(e) {
